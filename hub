@@ -18,4 +18,6 @@
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-boat.lua"))()
  elseif game.placeId == 5780309044 then 
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-stands.lua"))()
+      elseif game.placeId == 5780309044 then 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/CloudHub-Mad.lua"))()
      end
