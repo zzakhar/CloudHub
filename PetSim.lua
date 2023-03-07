@@ -2,7 +2,7 @@
 Cloud Hub | PSX
 ]]
 -- delete key system gui:
-if game:GetService("CoreGui"):WaitForChild("Orion") then 
+if game:GetService("CoreGui"):FindFirstChild("Orion") then 
 game:GetService("CoreGui"):WaitForChild("Orion"):Destroy()
 end
 -- load script
